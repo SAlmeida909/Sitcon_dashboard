@@ -1,22 +1,28 @@
-# SITCON — Dashboard de Sinalização (Vias 1 e 2)
+# SITCON — Sistema de Informação Técnica e Logística de Sinalização e Comunicação
 
-Dashboard estático e interativo com o levantamento da base de dados de **CDVs (Controle de Via)**
-e **Sinais luminosos** das vias 1 e 2.
+📌 Sobre o projeto
 
-## Conteúdo
+O SITCON é um projeto de desenvolvimento de um dashboard interativo voltado à consulta, visualização e análise de dados relacionados à infraestrutura ferroviária.
 
-- **KPIs**: total de pontos levantados, CDVs, sinais e vias.
-- **Gráficos**: pontos por tipo de hardware (LB/LC/TB/Interface), por via, por função/aspecto
-  e top equipamentos.
-- **Explorador por equipamento**: clique em um CDV/Sinal para ver todo o mapeamento de pontos.
-- **Tabela completa**: busca textual + filtros por família, via, tipo de hardware e grupo,
-  com ordenação por coluna.
+A proposta é centralizar informações técnicas e operacionais em uma interface visual e organizada, facilitando a localização de pontos de interesse pelas equipes responsáveis. O sistema busca transformar dados armazenados em planilhas em informações acessíveis, contribuindo para uma consulta mais ágil e precisa.
 
-## Origem dos dados
+🎯 Objetivo
 
-- `levantamento BD CDVs via 1 e 2.xlsx`
-- `levantamento BD Sinais via 1 e 2.xlsx`
+Desenvolver uma solução digital que facilite a consulta de informações técnicas relacionadas às vias ferroviárias, permitindo explorar dados, identificar registros e visualizar informações de maneira organizada.
 
-Legenda de tipos: **LB** = borne/lista LB · **LC** = lista de cabos · **TB** = armário de
-transmissão (terminal board) · **Interface 2** = cartões de interface · **Bastidor DCC1** =
-bastidor de controle.
+O projeto busca contribuir para a modernização da consulta de documentos e mapas utilizados pelas equipes, oferecendo uma alternativa digital que possa evoluir para permitir acesso remoto e funcionamento offline.
+
+🛠️ Tecnologias utilizadas
+
+- Python
+- Pandas
+- Bibliotecas para visualização de dados
+- Arquivos Excel para armazenamento dos dados de origem
+
+📈 Funcionalidades previstas
+
+- Consulta de informações técnicas.
+- Visualização de dados por meio de indicadores e gráficos.
+- Pesquisa e filtragem de registros.
+- Organização das informações para facilitar a localização de pontos de interesse.
+- Integração de dados provenientes de diferentes planilhas.
